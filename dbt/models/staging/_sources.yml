@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: ecommerce_staging
+    schema: staging
+    description: Cleaned Silver datasets loaded into PostgreSQL.
+
+    tables:
+      - name: stg_customers
+      - name: stg_geolocation
+      - name: stg_order_items
+      - name: stg_payments
+      - name: stg_reviews
+      - name: stg_orders
+      - name: stg_products
+      - name: stg_sellers
+      - name: stg_category_translation
